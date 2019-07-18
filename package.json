@@ -1,0 +1,28 @@
+{
+  "name": "node-express-travis-ci",
+  "version": "1.0.0",
+  "description": "## This is a sample repository for me to learn how to integrate with Travis CI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickcole/express-travis-test.git"
+  },
+  "keywords": [],
+  "author": "Patrick Cole <hpcmobiledev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickcole/express-travis-test/issues"
+  },
+  "homepage": "https://github.com/patrickcole/express-travis-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
